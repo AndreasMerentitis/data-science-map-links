@@ -1,0 +1,191 @@
+{
+ "name": "Machine Learning", "url":"https://en.wikipedia.org/wiki/Machine_learning",
+ "children": [
+  {"name": "Supervised Learning", "url":"https://en.wikipedia.org/wiki/Supervised_learning",
+    "children": [
+     {"name": "Classification", "url":"https://en.wikipedia.org/wiki/Statistical_classification",
+       "children": [
+        {"name": "Logistic regression", "url":"https://en.wikipedia.org/wiki/Logistic_regression"},
+        {"name": "Naive Bayes", "url":"https://en.wikipedia.org/wiki/Naive_Bayes_classifier"},
+        {"name": "Tree based", "url":"https://en.wikipedia.org/wiki/Decision_tree_model",
+          "children": [
+          {"name": "ID3", "url":"https://en.wikipedia.org/wiki/ID3"},
+          {"name": "CART", "url":"https://rafalab.github.io/pages/649/section-11.pdf"},
+          {"name": "Random forest", "url":"https://en.wikipedia.org/wiki/Random_forest"},
+          {"name": "Extremely RT", "url":"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.65.7485&rep=rep1&type=pdf"},
+          {"name": "AdaBoost", "url":"https://en.wikipedia.org/wiki/AdaBoost"},
+          {"name": "Gradient boosting", "url":"https://en.wikipedia.org/wiki/Gradient_boosting"}
+         ]
+        }, 
+        {"name": "Neural networks", "url":"https://en.wikipedia.org/wiki/Neural_network",
+          "children": [
+          {"name": "Fully connected", "url":"https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf"},
+          {"name": "CNNs", "url":"https://en.wikipedia.org/wiki/Convolutional_neural_network"},
+          {"name": "RNNs", "url":"https://en.wikipedia.org/wiki/Recurrent_neural_network"}
+         ]
+        },
+        {"name": "Graph models", "url":"https://en.wikipedia.org/wiki/Graphical_model",
+          "children": [
+          {"name": "MRF", "url":"https://en.wikipedia.org/wiki/Markov_random_field"},
+          {"name": "DBN", "url":"https://en.wikipedia.org/wiki/Dynamic_Bayesian_network"},
+          {"name": "RBM", "url":"https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine"},
+          {"name": "HMM", "url":"https://en.wikipedia.org/wiki/Hidden_Markov_model"},
+          {"name": "CRF", "url":"https://en.wikipedia.org/wiki/Conditional_random_field"}
+         ]
+        },
+        {"name": "K-nearest neighbors", "url":"https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm"},
+        {"name": "SVMs", "url":"https://en.wikipedia.org/wiki/Support-vector_machine"}
+      ]
+     },
+     {"name": "Regression", "url":"https://en.wikipedia.org/wiki/Regression_analysis",
+       "children": [
+        {"name": "Ordinary least squares", "url":"https://en.wikipedia.org/wiki/Ordinary_least_squares"},
+        {"name": "Generalized linear models", "url":"https://en.wikipedia.org/wiki/Generalized_linear_model"},
+        {"name": "Neural networks", "url":"https://en.wikipedia.org/wiki/Neural_network",
+          "children": [
+          {"name": "Fully connected", "url":"https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf"},
+          {"name": "CNNs", "url":"https://en.wikipedia.org/wiki/Convolutional_neural_network"},
+          {"name": "RNNs", "url":"https://en.wikipedia.org/wiki/Recurrent_neural_network"}
+         ]
+        },
+        {"name": "Tree based", "url":"https://en.wikipedia.org/wiki/Decision_tree_model",
+          "children": [
+          {"name": "ID3", "url":"https://en.wikipedia.org/wiki/ID3"},
+          {"name": "CART", "url":"https://rafalab.github.io/pages/649/section-11.pdf"},
+          {"name": "Random forest", "url":"https://en.wikipedia.org/wiki/Random_forest"},
+          {"name": "Extremely RT", "url":"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.65.7485&rep=rep1&type=pdf"},
+          {"name": "AdaBoost", "url":"https://en.wikipedia.org/wiki/AdaBoost"},
+          {"name": "Gradient boosting", "url":"https://en.wikipedia.org/wiki/Gradient_boosting"}
+         ]
+        },
+        {"name": "SVR", "url":"https://en.wikipedia.org/wiki/Support-vector_machine#Regression"}
+      ]
+     },
+     {"name": "Learning to rank", "url":"https://en.wikipedia.org/wiki/Learning_to_rank",
+       "children": [
+        {"name": "Ordinal regression", "url":"https://en.wikipedia.org/wiki/Ordinal_regression"},
+        {"name": "Ranking SVM", "url":"https://en.wikipedia.org/wiki/Ranking_SVM"},
+        {"name": "AdaRank", "url":"http://www.bigdatalab.ac.cn/~junxu/publications/SIGIR2007_AdaRank.pdf"},
+        {"name": "RankBoost", "url":"http://jmlr.csail.mit.edu/papers/volume4/freund03a/freund03a.pdf"},
+        {"name": "RankNet", "url":"https://icml.cc/2015/wp-content/uploads/2015/06/icml_ranking.pdf"},
+        {"name": "LambdaRank", "url":"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.180.634&rep=rep1&type=pdf"},
+        {"name": "LambdaMART", "url":"http://proceedings.mlr.press/v14/burges11a/burges11a.pdf"}
+      ]
+     },
+     {"name": "NLP", "url":"https://en.wikipedia.org/wiki/Natural_language_processing",
+       "children": [
+        {"name": "CoVe", "url":"https://arxiv.org/pdf/1708.00107.pdf"},
+        {"name": "RNN", "url":"https://en.wikipedia.org/wiki/Recurrent_neural_network"},
+        {"name": "Bi-LSTM", "url":"https://en.wikipedia.org/wiki/Bidirectional_recurrent_neural_networks"},
+        {"name": "BERT", "url":"https://arxiv.org/pdf/1810.04805.pdf"}
+      ]
+     },
+     {"name": "Recommendations", "url":"https://en.wikipedia.org/wiki/Recommender_system",
+       "children": [
+        {"name": "Content based filtering", "url":"http://www.fxpal.com/publications/FXPAL-PR-06-383.pdf",
+          "children": [
+          {"name": "K-nearest neighbors", "url":"https://en.wikipedia.org/wiki/K-nearest_neighbors"},
+          {"name": "TFIDF", "url":"https://en.wikipedia.org/wiki/Tf%E2%80%93idf"},
+          {"name": "Neural networks", "url":"https://en.wikipedia.org/wiki/Neural_network"}
+         ]
+        },
+        {"name": "Collaborative filtering", "url":"https://en.wikipedia.org/wiki/Collaborative_filtering",
+          "children": [
+          {"name": "Factorization - SGD", "url":"http://proceedings.mlr.press/v36/li14.pdf"},
+          {"name": "Factorization - ALS", "url":"https://arxiv.org/pdf/1708.05024.pdf"}
+         ]
+        },
+        {"name": "Association Rules", "url":"https://en.wikipedia.org/wiki/Association_rule_learning"},
+        {"name": "Item2vec", "url":"https://arxiv.org/vc/arxiv/papers/1603/1603.04259v2.pdf"},
+        {"name": "Hybrid", "url":"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.88.8200&rep=rep1&type=pdf",
+          "children": [
+          {"name": "CF + CNN", "url":"https://www.cs.ccu.edu.tw/~wtchu/papers/2017WWW-chu2.pdf"},
+          {"name": "CF + RNN", "url":"https://arxiv.org/pdf/1608.07400.pdf"},
+          {"name": "CF + Item2vec", "url":"https://arxiv.org/vc/arxiv/papers/1603/1603.04259v2.pdf"}
+         ]
+        }
+      ]
+     }
+    ]
+  },
+  {"name": "Unsupervised Learning", "url":"https://en.wikipedia.org/wiki/Unsupervised_learning",
+   "children": [
+     {"name": "Clustering", "url":"https://en.wikipedia.org/wiki/Cluster_analysis",
+       "children": [
+        {"name": "Kmeans", "url":"https://en.wikipedia.org/wiki/K-means_clustering"},
+        {"name": "Gaussian mixture", "url":"https://en.wikipedia.org/wiki/Mixture_model"},
+        {"name": "Kmedoids", "url":"https://en.wikipedia.org/wiki/K-medoids"},
+        {"name": "Minibatch Kmeans", "url":"https://www.eecs.tufts.edu/~dsculley/papers/fastkmeans.pdf"},
+        {"name": "Birch", "url":"https://www2.cs.sfu.ca/CourseCentral/459/han/papers/zhang96.pdf"},
+        {"name": "Mean Shift", "url":"https://en.wikipedia.org/wiki/Mean_shift"},
+        {"name": "DBSCAN", "url":"https://en.wikipedia.org/wiki/DBSCAN"},
+        {"name": "Affinity Propagation", "url":"https://en.wikipedia.org/wiki/Affinity_propagation"},
+        {"name": "Spectral clustering", "url":"https://en.wikipedia.org/wiki/Spectral_clustering"},
+        {"name": "Agglomerative clustering", "url":"https://en.wikipedia.org/wiki/Hierarchical_clustering#Agglomerative_clustering_example"},
+        {"name": "Ward", "url":"https://en.wikipedia.org/wiki/Ward%27s_method"}
+      ]
+     },
+     {"name": "Anomaly detection", "url":"https://en.wikipedia.org/wiki/Anomaly_detection",
+       "children": [
+        {"name": "Minimum Covariance Determinant", "url":"https://wis.kuleuven.be/stat/robust/papers/2010/wire-mcd.pdf"},
+        {"name": "One class SVM", "url":"http://www.jmlr.org/papers/volume2/manevitz01a/manevitz01a.pdf"},
+        {"name": "Isolation Forest", "url":"https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf"},
+        {"name": "Local Outlier Factor", "url":"https://en.wikipedia.org/wiki/Local_outlier_factor"}
+      ]
+     },
+     {"name": "NLP", "url":"https://en.wikipedia.org/wiki/Natural_language_processing",
+       "children": [
+        {"name": "Word2vec", "url":"https://en.wikipedia.org/wiki/Word2vec"},
+        {"name": "Topic models", "url":"https://en.wikipedia.org/wiki/Topic_model"},
+        {"name": "RNNs", "url":"https://en.wikipedia.org/wiki/Recurrent_neural_network"},
+        {"name": "ELMO", "url":"https://arxiv.org/pdf/1802.05365.pdf"}
+      ]
+     },
+     {"name": "Representation learning", "url":"https://arxiv.org/pdf/1206.5538.pdf",
+       "children": [
+        {"name": "Feature learning", "url":"https://en.wikipedia.org/wiki/Feature_learning",
+          "children": [
+          {"name": "RBM", "url":"https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine"},
+          {"name": "GRP", "url":"https://en.wikipedia.org/wiki/Random_projection#Gaussian_random_projection"},
+          {"name": "Sparse coding", "url":"https://papers.nips.cc/paper/2979-efficient-sparse-coding-algorithms.pdf"},
+          {"name": "(V)AE", "url":"https://en.wikipedia.org/wiki/Autoencoder"}
+         ]
+        },
+        {"name": "Multitask learning", "url":"https://en.wikipedia.org/wiki/Multi-task_learning"},
+        {"name": "Domain mapping", "url":"https://papers.nips.cc/paper/6677-one-sided-unsupervised-domain-mapping.pdf"},
+        {"name": "Generative Adversarial Networks", "url":"https://en.wikipedia.org/wiki/Generative_adversarial_network"}
+      ]
+     },
+     {"name": "Dimensionality reduction", "url":"https://en.wikipedia.org/wiki/Dimensionality_reduction",
+       "children": [
+        {"name": "(Kernel) Principal Component Analysis", "url":"https://en.wikipedia.org/wiki/Principal_component_analysis"},
+        {"name": "Factor Analysis", "url":"https://en.wikipedia.org/wiki/Factor_analysis"},
+        {"name": "Independent Component Analysis", "url":"https://en.wikipedia.org/wiki/Independent_component_analysis"},
+        {"name": "t-SNE", "url":"https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding"},
+        {"name": "Uniform Manifold Approximation and Projection", "url":"https://arxiv.org/pdf/1802.03426.pdf"}
+      ]
+     }
+    ]
+  },
+  {"name": "Reinforcement Learning", "url":"https://en.wikipedia.org/wiki/Reinforcement_learning",
+    "children": [
+     {"name": "Value iteration", "url":"http://www.montefiore.ulg.ac.be/~ernst/uploads/news/id49/IJEEPS-ernst-2005.pdf"},
+     {"name": "Policy iteration", "url":"http://chercheurs.lille.inria.fr/~ghavamza/my_website/Publications_Year_files/jmlr-DPI.pdf"}, 
+     {"name": "REINFORCE", "url":"https://link.springer.com/content/pdf/10.1007%2FBF00992696.pdf"},
+     {"name": "Natural policy gradient", "url":"https://homes.cs.washington.edu/~sham/papers/rl/natural.pdf"},
+     {"name": "Q-learning", "url":"https://en.wikipedia.org/wiki/Q-learning"},
+     {"name": "SARSA", "url":"https://en.wikipedia.org/wiki/State%E2%80%93action%E2%80%93reward%E2%80%93state%E2%80%93action"},
+     {"name": "Hybrid", "url":"https://papers.nips.cc/paper/7123-hybrid-reward-architecture-for-reinforcement-learning.pdf",
+       "children": [
+        {"name": "A3C", "url":"https://arxiv.org/pdf/1602.01783.pdf"},
+        {"name": "ACER", "url":"https://arxiv.org/pdf/1611.01224.pdf"},  
+        {"name": "TRPO", "url":"https://arxiv.org/pdf/1502.05477.pdf"},
+        {"name": "NAF", "url":"https://arxiv.org/pdf/1603.00748.pdf"},
+        {"name": "Curiosity based", "url":"http://proceedings.mlr.press/v70/pathak17a/pathak17a.pdf"},
+        {"name": "Intrinsic motivation", "url":"http://www.cs.cornell.edu/~helou/IMRL.pdf"}
+      ]
+     }
+    ]
+  }
+ ]
+}
