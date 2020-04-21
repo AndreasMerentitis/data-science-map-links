@@ -1,4 +1,4 @@
-# data_science_map_links
+# Data science map with clickable links
 
 The goal of this project is to create a taxonomy of machine learning algorithms across domains and application areas. It is not intended to be a comprehensive list of all algorithms,
 but it is intended to capture the most inconic, promising or widely used families of algorithms at this point in time (2019). Since the taxonomy quickly becomes quite extended, Dynamic 
